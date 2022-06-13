@@ -160,5 +160,3 @@ public class Tela_de_acesso extends JFrame {
 		contentPane.add(lbBackGroundTelaAcesso);
 	}
 }
-
-
