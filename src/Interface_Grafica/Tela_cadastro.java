@@ -89,15 +89,15 @@ public class Tela_cadastro extends JFrame {
 		tfMatricula.setColumns(10);
 		
 		tfUsuario = new JTextField();
-		tfUsuario.setBounds(104, 193, 143, 20);
+		tfUsuario.setBounds(104, 193, 117, 20);
 		contentPane.add(tfUsuario);
 		tfUsuario.setColumns(10);
 		
 		pfSenha = new JPasswordField();
-		pfSenha.setBounds(104, 218, 143, 20);
+		pfSenha.setBounds(104, 218, 117, 20);
 		contentPane.add(pfSenha);
 		
-		JButton btnNewButton = new JButton("Salvar");
+		JButton btnNewButton = new JButton("Cadastrar");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -133,12 +133,12 @@ public class Tela_cadastro extends JFrame {
 		});
 		btnNewButton.setFont(new Font("Dialog", Font.BOLD, 16));
 		btnNewButton.setForeground(Color.ORANGE);
-		btnNewButton.setBounds(264, 214, 89, 23);
+		btnNewButton.setBounds(248, 227, 117, 23);
 		contentPane.add(btnNewButton);
 		
-		JLabel lblNewLabel_3 = new JLabel("");
-		lblNewLabel_3.setIcon(new ImageIcon("C:\\Users\\msjoe\\OneDrive\\Área de Trabalho\\cadastro.png"));
-		lblNewLabel_3.setBounds(0, 0, 365, 259);
-		contentPane.add(lblNewLabel_3);
+		JLabel lbBackGroundTelaCadastro = new JLabel("");
+		lbBackGroundTelaCadastro.setIcon(new ImageIcon("C:\\Users\\msjoe\\OneDrive\\Área de Trabalho\\cadastro.png"));
+		lbBackGroundTelaCadastro.setBounds(0, 0, 365, 259);
+		contentPane.add(lbBackGroundTelaCadastro);
 	}
 }
