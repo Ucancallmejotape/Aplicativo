@@ -154,10 +154,10 @@ public class Tela_de_acesso extends JFrame {
 		btnLimpar.setBounds(144, 212, 89, 23);
 		contentPane.add(btnLimpar);
 		
-		JLabel lblNewLabel_1 = new JLabel("New label");
-		lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\msjoe\\OneDrive\\Área de Trabalho\\acesso.png"));
-		lblNewLabel_1.setBounds(0, 0, 384, 261);
-		contentPane.add(lblNewLabel_1);
+		JLabel lbBackGroundTelaAcesso = new JLabel("");
+		lbBackGroundTelaAcesso.setIcon(new ImageIcon("C:\\Users\\msjoe\\OneDrive\\Área de Trabalho\\acesso.png"));
+		lbBackGroundTelaAcesso.setBounds(0, 0, 384, 261);
+		contentPane.add(lbBackGroundTelaAcesso);
 	}
 }
 
